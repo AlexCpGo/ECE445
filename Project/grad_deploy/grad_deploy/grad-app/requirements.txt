@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+PyWavelets
+flask
+joblib
+pyserial
+pandas
+gevent
+requests
+flask-cors

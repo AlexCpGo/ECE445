@@ -12,10 +12,10 @@ the bicycle with a device holder and then transmit data to the server. Machine l
 models have been created to process acceleration data and judge the road quality. When
 abnormal patterns appeared, message where the patterns locate would be produced and
 sent to our display system. Locations with problems could be visualized on a city map
-constantly and could be accessible for users via web browsers as clients.
+constantly and could be accessible for users via web browsers as clients...
 
 ###### Key Word
-Road quality monitoring; Acceleration; Arduino; Esp8266 WIFI module; Fourier Transform; Logistic regression; SVM; Random Forest; Display Webpage;
+Road quality monitoring; Acceleration; Arduino; Esp8266 WIFI module; Fourier Transform; Logistic regression; SVM; Random Forest; Python Flask; Display Webpage;
 
 ### 2. Block Diagram
 ###### ------------------------- Figure 1. Block Diagram of the project -------------------------

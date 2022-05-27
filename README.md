@@ -19,7 +19,7 @@ Road quality monitoring; Acceleration; Arduino; Esp8266 WIFI module; Fourier Tra
 
 ### 2. Block Diagram
 ![image](https://user-images.githubusercontent.com/60203135/170616237-1bf2662f-182e-4a7b-b7ac-74ca2fe1e5d6.png)
--------------------------Figure 1. Block Diagram of the project-------------------------
+###### -------------------------Figure 1. Block Diagram of the project-------------------------
 
 ### 3. Device System
 ###### Overlook of Device System 

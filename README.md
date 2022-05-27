@@ -1,8 +1,6 @@
-# ZJUI ECE445 Project
-Sp2022 Team 11
-
 # LOW-COST SENSOR FOR SEAMLESS ROAD QUALITY MONITORING
-An undergraduate graduation project involves hardware and software interactions
+An project involves hardware and software interactions 
+Sp2022 Team 11
 
 ### 1. Abstract
 In this project, our group designed a low-cost sensor to collect road data, aiming at conveniently

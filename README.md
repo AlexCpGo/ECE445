@@ -97,9 +97,10 @@ of roughness of the road. Second, it should distinguish whether there is obstacl
 road. We will test the method from [1], which includes two method of feature extraction,
 and three machine learning model. After testing, we will choose the best combination
 and implement it on our server.
-![Procedure](https://user-images.githubusercontent.com/60203135/170621122-7244599b-5dc3-4fdf-a0b4-7a773f11084e.png)
 After we get the result, the label will be labeled on the map according to the signal form
 GPS.
+![Procedure](https://user-images.githubusercontent.com/60203135/170621122-7244599b-5dc3-4fdf-a0b4-7a773f11084e.png)
+
 
 ###### 7.2 Processing Algorithm Method: Fourier Transform + Machine Learning
 ###### ------------------------- Figure 11. Raw Data Frequency -------------------------
@@ -118,4 +119,6 @@ GPS.
 ###### -------------- Figure 16. Webpage automatically produced using html+javascript-----------------
 ![WebPage](https://user-images.githubusercontent.com/60203135/170616397-bf389414-9118-4ec1-a284-ec5d1e40de92.png)
 
+### 9. Refernce
+Documents/Final/final_report
 

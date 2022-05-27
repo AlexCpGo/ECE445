@@ -25,25 +25,25 @@ Road quality monitoring; Acceleration; Arduino; Esp8266 WIFI module; Fourier Tra
 ### 3. Device System
 ###### ------------------------- Figure 2. Overlook of Device System -------------------------
 ![DeviceSystem](https://user-images.githubusercontent.com/60203135/170618257-f0057a07-d2a0-4a0c-8b06-7fc644321128.png)
-###### Test On Device
+###### ------------------------- Figure 3. Test On Device -------------------------
 ![test](https://user-images.githubusercontent.com/60203135/170618264-5bb2bd68-61a6-4925-95fd-7fab90115c9c.jpg)
-###### Device Interface Schematic
+###### ------------------------- Figure 4. Device Interface Schematic -------------------------
 ![Device Interface Schematic](https://user-images.githubusercontent.com/60203135/170618273-e6b78d20-2d3e-4b97-be05-923580853f33.png)
 
 ### 4. Hardware Component
-###### Acceleration Sensor Module: MPU6050
+###### ------------------------- Figure 5. Acceleration Sensor Module: MPU6050 -------------------------
 ![MPU6050](https://user-images.githubusercontent.com/60203135/170618440-e1cc5e5f-a208-4743-b3de-46dc6fb1076b.png)
-###### GPS Module: NEO-6M
+###### ------------------------- Figure 6. GPS Module: NEO-6M -------------------------
 ![NEO6M](https://user-images.githubusercontent.com/60203135/170618544-1a2da798-3a5e-4f6b-8429-5dc141650c61.png)
-###### WIFI Module: esp8266
+###### ------------------------- Figure 7. WIFI Module: esp8266 -------------------------
 ![esp8266](https://user-images.githubusercontent.com/60203135/170618865-ce68cee4-9790-4e93-a7a2-99f2bb063514.jpg)
-###### MCU: STEMTeraBOARD
+###### ------------------------- Figure 8. MCU: STEMTeraBOARD -------------------------
 ![MCU](https://user-images.githubusercontent.com/60203135/170621567-cdf2a5c6-701f-478c-ba7f-0a79918d3323.png)
-###### Battery Supply: 9V Ni-MH Battery
+###### ------------------------- Figure 9. Battery Supply: 9V Ni-MH Battery -------------------------
 ![battery](https://user-images.githubusercontent.com/60203135/170621383-e1027ff7-3040-494f-bc37-d3f32890ef92.png)
 
 
-### 5. Data Transmission Flow
+### 5. Data Transmission
 The first part is Hardware part. The Arduino will integrate the signal collected from accelerometer
 and GPS. It will write the data to the serial. The second part is the connection
 between Hardware and server part. The serial data will be transmitted to computer using
@@ -52,6 +52,7 @@ is the python script on computer which uses the data received from port to form 
 The fourth part is the data preprocessing implemented on server. It will get the signal
 of accelerometer and GPS and form the array that can be accepted by the classification
 subsystem.
+###### ------------------------- Figure 10. Data Transmission Flow -------------------------
 ![data_transmitting](https://user-images.githubusercontent.com/60203135/170617541-7984d05c-ef78-4ed6-9590-68e0b9b089e8.png)
 
 The script of forming log keeps running. Once port receives data, the script starts get the
@@ -101,19 +102,20 @@ After we get the result, the label will be labeled on the map according to the s
 GPS.
 
 ###### 7.2 Processing Algorithm Method: Fourier Transform + Machine Learning
-###### Raw Data Frequency
+###### ------------------------- Figure 11. Raw Data Frequency -------------------------
 ![Z](https://user-images.githubusercontent.com/60203135/170622056-d5592e99-37a2-4742-80e3-11929aee4b13.png)
-###### FFT
+###### ------------------------- Figure 12. FFT -------------------------
 ![Frequency](https://user-images.githubusercontent.com/60203135/170622021-ac7cfe58-7895-47d2-a1b8-18fa82b08b3d.png)
-###### Wavelet
+###### ------------------------- Figure 13. Wavelet -------------------------
 ![Dicrete Wavelet Tranform](https://user-images.githubusercontent.com/60203135/170621683-fd9862e8-2376-4ea4-87f0-d221df99bde1.png)
-###### Feature Extraction
+###### ------------------------- Figure 14. Feature Extraction ------------------------- 
 ![Z_processed](https://user-images.githubusercontent.com/60203135/170622114-a762f276-0db5-427b-a86f-f4ce0db7a58e.png)
 
 ### 8. Display System
+###### -------------- Figure 15. Figure Map Marks automatically produced using Python ----------------
 ![map](https://user-images.githubusercontent.com/60203135/170617560-63dc34dc-ee43-4c1c-8b93-569e0a733098.png)
-###### Figure Map Marks automatically produced using Python
-###### Webpage automatically produced using html+javascript
+###### 
+###### -------------- Figure 16. Webpage automatically produced using html+javascript-----------------
 ![WebPage](https://user-images.githubusercontent.com/60203135/170616397-bf389414-9118-4ec1-a284-ec5d1e40de92.png)
 
 

@@ -18,11 +18,12 @@ constantly and could be accessible for users via web browsers as clients.
 Road quality monitoring; Acceleration; Arduino; Esp8266 WIFI module; Fourier Transform; Logistic regression; SVM; Random Forest; Display Webpage;
 
 ### 2. Block Diagram
+###### ------------------------- Figure 1. Block Diagram of the project -------------------------
 ![image](https://user-images.githubusercontent.com/60203135/170616237-1bf2662f-182e-4a7b-b7ac-74ca2fe1e5d6.png)
-###### -------------------------Figure 1. Block Diagram of the project-------------------------
+
 
 ### 3. Device System
-###### Overlook of Device System 
+###### ------------------------- Figure 2. Overlook of Device System -------------------------
 ![DeviceSystem](https://user-images.githubusercontent.com/60203135/170618257-f0057a07-d2a0-4a0c-8b06-7fc644321128.png)
 ###### Test On Device
 ![test](https://user-images.githubusercontent.com/60203135/170618264-5bb2bd68-61a6-4925-95fd-7fab90115c9c.jpg)

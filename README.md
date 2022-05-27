@@ -13,11 +13,13 @@ models have been created to process acceleration data and judge the road quality
 abnormal patterns appeared, message where the patterns locate would be produced and
 sent to our display system. Locations with problems could be visualized on a city map
 constantly and could be accessible for users via web browsers as clients.
-### Key Word
+
+###### Key Word
 Road quality monitoring; Acceleration; Arduino; Esp8266 WIFI module; Fourier Transform; Logistic regression; SVM; Random Forest; Display Webpage;
 
 ### 2. Block Diagram
 ![image](https://user-images.githubusercontent.com/60203135/170616237-1bf2662f-182e-4a7b-b7ac-74ca2fe1e5d6.png)
+######                  Figure 1. Block Diagram of the project
 
 ### 3. Device System
 ###### Overlook of Device System 
@@ -80,7 +82,7 @@ The data from accelerometer will be sent to classification subsystem and data fr
 will be sent to display subsystem.
 
 ### 7. Data Processing Algorithm
-###### General Processing Procedure
+###### 7.1 General Processing Procedure
 The classification subsystem mainly includes two parts, feature extraction and machine
 learning model.
 A method of feature extraction should be chosen to make the abnormal pattern can be
@@ -97,7 +99,7 @@ and implement it on our server.
 After we get the result, the label will be labeled on the map according to the signal form
 GPS.
 
-###### Processing Algorithm Method: Fourier Transform + Machine Learning
+###### 7.2 Processing Algorithm Method: Fourier Transform + Machine Learning
 ###### Raw Data Frequency
 ![Z](https://user-images.githubusercontent.com/60203135/170622056-d5592e99-37a2-4742-80e3-11929aee4b13.png)
 ###### FFT
@@ -107,10 +109,9 @@ GPS.
 ###### Feature Extraction
 ![Z_processed](https://user-images.githubusercontent.com/60203135/170622114-a762f276-0db5-427b-a86f-f4ce0db7a58e.png)
 
-### 7. Display System
-###### Map Marks automatically produced using Python
+### 8. Display System
 ![map](https://user-images.githubusercontent.com/60203135/170617560-63dc34dc-ee43-4c1c-8b93-569e0a733098.png)
-
+###### Figure Map Marks automatically produced using Python
 ###### Webpage automatically produced using html+javascript
 ![WebPage](https://user-images.githubusercontent.com/60203135/170616397-bf389414-9118-4ec1-a284-ec5d1e40de92.png)
 
